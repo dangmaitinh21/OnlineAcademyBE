@@ -1,0 +1,26 @@
+{
+    "required": [
+        "email",
+        "password",
+        "type"
+    ],
+    "properties": {
+        "password": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "fullname": {
+            "type": "string"
+        },
+        "type": {
+            "type": "integer",
+            "enum": [
+                1,
+                2
+            ]
+        }
+    },
+    "additionalProperties": false
+}

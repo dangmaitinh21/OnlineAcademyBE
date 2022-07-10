@@ -1,0 +1,61 @@
+{
+    "required": [
+        "title", 
+        "descriptionShort", 
+        "descriptionLong", 
+        "thumbnail",
+        "price"
+    ],
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "descriptionShort": {
+            "type": "string"
+        },
+        "descriptionLong": {
+            "type": "string"
+        },
+        "thumbnail": {
+            "type": "string"
+        },
+        "price": {
+            "type": "number"
+        },
+        "sale": {
+            "type": "number"
+        },
+        "reviewPoint": {
+            "type": "number"
+        },
+        "reviews": {
+            "type": "number"
+        },
+        "participants": {
+            "type": "integer"
+        },
+        "outline": {
+            "type": "string"
+        },
+        "categoryId": {
+            "type": "integer"
+        },
+        "teacherId": {
+            "type": "integer"
+        },
+        "createdBy": {
+            "type": "string"
+        },
+        "modifiedBy": {
+            "type": "string"
+        },
+        "isDeleted": {
+            "type": "boolean"
+        },
+        "isCompleted": {
+            "type": "boolean"
+        }
+    }
+}

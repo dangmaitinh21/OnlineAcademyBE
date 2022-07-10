@@ -1,0 +1,21 @@
+{
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+        "password": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "fullname": {
+            "type": "string"
+        },
+        "type": {
+            "type": "number"
+        },
+        "isActive": {
+            "type": "number"
+        }
+    }
+}

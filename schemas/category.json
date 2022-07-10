@@ -1,0 +1,28 @@
+{
+    "required": [
+        "title"
+
+    ],
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+        "title": {
+            "type": "string"
+        },
+        "description":{
+            "type":"string"
+        },
+        "level":{
+            "type":"number"
+        },
+        "owned":{
+            "type":"number"
+        },
+        "createdBy": {
+            "type": "string"
+        },
+        "modifiedBy": {
+            "type": "string"
+        }
+    }
+}
